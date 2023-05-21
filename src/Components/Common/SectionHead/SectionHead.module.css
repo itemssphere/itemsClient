@@ -1,0 +1,42 @@
+.section-head-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-title {
+  font-size: 20px;
+  color: #3D3D3D;
+}
+
+.view-all-button {
+  margin-left: 21px;
+  font-size: 20px;
+  color: #40CF25;
+}
+
+.section-title-content {
+  display: flex;
+  align-items: center;
+}
+
+.slider-switcher {
+  display: flex;
+  align-items: center;
+}
+.slider-switcher div {
+  width: 32px;
+  height: 32px;
+  border: 1px solid rgba(112, 112, 112, 0.1019607843);
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.slider-switcher .prev-slide {
+  margin-right: 8px;
+}
+.slider-switcher .next-slide {
+  transform: rotate(180deg);
+}/*# sourceMappingURL=SectionHead.module.css.map */

@@ -1,0 +1,33 @@
+.characteristics-table-wrapper {
+  background: #FFFFFF;
+  border: 1px solid #E6E6E6;
+  border-radius: 20px;
+  overflow: hidden;
+  opacity: 1;
+  margin-top: 12px;
+}
+
+.table-title {
+  width: 224px;
+  padding-left: 20px;
+  border-right: #E6E6E6 1px solid;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.table-value {
+  padding-left: 20px;
+}
+
+.characteristics-table li {
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.characteristics-table li:nth-child(even) {
+  background: #F6F6F6;
+}
+
+/*# sourceMappingURL=Charasteristics.module.css.map */

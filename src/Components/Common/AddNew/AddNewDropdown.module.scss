@@ -1,0 +1,72 @@
+.add-new-items-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #42BE29;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 4px;
+    margin-left: 8px;
+}
+.add-new-items-button{
+    cursor: pointer;
+}
+.dropdowns-container{
+    display: flex;
+    flex-direction: column;
+    .dropdown-option{
+        height: 43px;
+        width: 100%;
+        padding: 0px 18px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        span{
+            color: #606062;
+        }
+        &:hover{
+            background: #CEEDCC;
+        }
+    }
+}
+.plus-icon{
+    color: #42BE29;
+    font-size: 18px;
+    font-weight: bold;
+}
+.header-buttons-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 48px;
+}
+
+.header-btn-standard {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 0px 3px 6px #00000029;
+    border: none;
+    margin-left: 8px;
+}
+
+.header-btn-standard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.account-controller-dropdown-unauthorized{
+    background: white;
+    box-shadow: 0px 3px 10px #00000029;
+    border-radius: 20px;
+}
+.account-controller-dropdown-btns{
+    padding: 23px 0px 18px 20px
+}

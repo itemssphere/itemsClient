@@ -1,0 +1,349 @@
+.left-side,
+.right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+a:hover{
+    text-decoration: none;
+}
+.edit-social-program-mobile {
+    display: none;
+}
+
+.social-progrram-on-edit {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.right-side {
+    align-items: flex-end !important;
+}
+
+.product-donate-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-donate-count {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.product-donate-btn {
+    background: #41C227;
+    color: white;
+    height: 32px;
+    border: 1px solid #41C227;
+    border-radius: 16px;
+    font-size: 15px;
+}
+
+.product-donate-count span {
+    margin-right: 13px;
+    color: #4A4A4A;
+    position: absolute;
+}
+
+.product-donate-count input {
+    width: 100%;
+    padding-left: 17px;
+    border: 2px solid #F2F2F2;
+    height: 32px;
+    border-radius: 16px;
+    color: #4A4A4A;
+}
+
+.product-donate-count,
+.product-donate-btn {
+    width: calc(50% - 5px);
+}
+
+.soc-program-items{
+    width: calc((100% / 4) - 20px);
+}
+
+.social-programs-container {
+    width: 256px;
+    height: fit-content !important;
+    flex-shrink: 0;
+    border-radius: 20px;
+    margin-right: 10px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.social-programs-page-item {
+    width: 100%;
+    margin-right: 0px;
+
+    .social-programs-page-item-image {
+        height: 179px;
+    }
+}
+
+.social-program-item-description {
+    margin-top: 17px !important;
+}
+
+.social-program-item-container {
+    width: 100%;
+    background: white;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.social-program-item-image {
+    width: 100%;
+    height: 158px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.social-program-description {
+    background: white;
+    border-radius: 0px 0px 20px 20px;
+    padding: 16px 13px 17px 13px;
+}
+
+.social-programs-paragraph {
+    color: #5A5A5A;
+    margin: 12px 0px 10px 0px;
+    height: 27px;
+    overflow: hidden;
+}
+
+.social-program-current-donate {
+    color: #42D921;
+}
+
+.social-program-progress {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 3px 0px 15px 0px;
+
+    .social-programs-progress-line {
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        background: #DFDFDF;
+        border-radius: 3px;
+    }
+
+    .social-program-progress-done {
+        height: 4px;
+        border-radius: 3px;
+        background: #42D921;
+        z-index: 111;
+    }
+}
+
+.social-programs-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .social-programs-actions-btns {
+        display: flex;
+        align-items: center;
+
+        .social-program-share-btn,
+        .social-programs-add-to-favorite-btn {
+            width: 33px;
+            height: 33px;
+            border-radius: 30px;
+            background: #EAEAEA;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            margin-right: 4px;
+        }
+
+        .social-program-quantities,
+        .social-programs-add-fav-actions-hover {
+            color: #4A4A4A;
+        }
+
+        .social-programs-add-to-favorite:hover {
+            .social-programs-add-to-favorite-btn {
+                background: rgb(245, 199, 199);
+                transition: 0.5s;
+                transform: scale(1.1);
+
+                svg path {
+                    fill: red;
+                    transition: 0.5s;
+                }
+            }
+
+            .social-program-quantities {
+                display: none;
+            }
+
+            .social-programs-add-fav-actions-hover {
+                display: block;
+            }
+        }
+
+        .social-programs-actions-btns-share:hover {
+            .social-program-share-btn {
+                background: rgb(161, 176, 224) !important;
+                transition: 0.5s;
+                transform: scale(1.1);
+            }
+        }
+
+    }
+}
+
+.social-programs-add-to-favorite:hover {
+    transform: scale(0.9);
+    transition: 0.5s;
+
+    .social-programs-add-to-favorite-btn {
+        background: #bbcff5;
+
+        svg path:last-child {
+            fill: #2e76fc;
+        }
+    }
+
+    .social-programs-favorited-quantity {
+        visibility: hidden !important;
+    }
+
+    .social-programs-add-fav-actions-hover {
+        visibility: visible !important;
+        color: #2e76fc !important;
+    }
+}
+
+.social-program-share:hover {
+    transform: scale(0.9);
+    transition: 0.5s;
+
+    .social-program-share-btn {
+        background: #bbcff5;
+
+        svg path {
+            fill: #2e76fc;
+        }
+    }
+
+    .social-program-shared-quantity {
+        visibility: hidden !important;
+    }
+
+    .social-programs-share-actions-hover {
+        visibility: visible !important;
+        color: #2e76fc !important;
+    }
+}
+
+.social-program-share-btn,
+.social-programs-add-to-favorite-btn {
+    width: 38px;
+    height: 38px;
+    border-radius: 30px;
+    background: #A5A5A53B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.social-program-shared-quantity,
+.social-programs-favorited-quantity {
+    font-size: 18px;
+    color: #4A4A4A;
+    position: absolute;
+    margin-left: 42px;
+}
+
+.social-programs-add-fav-actions-hover,
+.social-programs-share-actions-hover {
+    visibility: hidden;
+}
+
+@media(max-width: 1199px) {
+    .soc-program-items {
+        width: calc((100% / 3) - 20px);
+    }
+}
+
+@media(max-width: 1024px) {
+    .social-programs-container {
+        width: 167px;
+        height: 283px;
+    }
+
+    .social-program-item-image {
+        height: 104px;
+    }
+
+    .social-programs-paragraph {
+        margin: 10px 0px;
+    }
+
+    .social-program-current-donate {
+        font-size: 15px;
+    }
+
+    .social-program-progress {
+        margin: 7px 0px 11px 0px;
+    }
+
+    .social-programs-add-to-favorite-btn,
+    .social-program-share-btn {
+        width: 24px !important;
+        height: 24px !important;
+
+        svg {
+            width: 13px !important;
+        }
+    }
+
+    .social-programs-favorited-quantity, .social-program-shared-quantity{
+        margin-left: 28px !important;
+    }
+
+    .social-program-quantities {
+        font-size: 11px !important;
+    }
+}
+
+@media(max-width: 991px) {
+    .soc-program-items {
+        width: calc((100% / 4) - 20px);
+    }
+    .social-programs-page-item{
+        width: 100%;
+    }
+}
+
+@media(max-width: 900px) {
+    .soc-program-items {
+        width: calc((100% / 3) - 10px);
+    }
+}
+@media(max-width: 640px) {
+    .soc-program-items {
+        width: calc((100% / 2) - 10px);
+    }
+}
+@media(max-width: 500px) {
+    .social-programs-page-item-image{
+        height: 104px !important;
+    }
+    .social-program-item-description{
+        margin-top: 0px !important;
+    }
+}

@@ -1,0 +1,121 @@
+.main-slider-container {
+    width: 100%;
+    height: 264px;
+}
+
+.slider {
+    width: 100%;
+    height: 264px;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.slider-images-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+.sections-container{
+    margin-top: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slider-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slider-buttons {
+    background: white;
+    border: 1px solid #7070701A;
+    border-radius: 11px;
+    width: 32px;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 32px;
+    &-prev{
+        margin-left: -16px;
+        z-index: 1;
+    }
+    &-next{
+        transform: rotate(180deg);
+        margin-right: -16px;
+    }
+}
+.section-item{
+    height: 202px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 3px 6px #00000029;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slider-dots-container{
+    display: none;
+}
+
+@media(max-width: 1199px){
+    .section-item{
+        height: 142px;
+    }
+}
+
+@media(max-width: 991px){
+    .slider-dots-container{
+        display: flex;
+        align-items: center;
+        margin: 16px 0px 4px 0px;
+        justify-content: center;
+        .dots{
+            width: 24px;
+            height: 8px;
+            border-radius: 8px;
+            background: #B0B0B1;
+            cursor: pointer;
+            margin: 0px 4px;
+        }
+        .active{
+            background: #4CC334;
+        }
+    }
+    .slider-buttons{
+        display: none !important;
+    }
+    .sections-container{
+        overflow: auto;
+        height: 175px;
+        justify-content: center;
+        &::-webkit-scrollbar{
+            display: none;
+        }
+        .section-items-container{
+            margin-right: 10px;
+            width: 165px !important;
+            height: 165px !important;
+            flex-shrink: 0;
+        }
+    }
+}
+
+@media(max-width: 750px){
+    .sections-container{
+        justify-content: flex-start;
+    }
+}

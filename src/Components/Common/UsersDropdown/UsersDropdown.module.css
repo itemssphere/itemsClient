@@ -1,0 +1,181 @@
+.button-image {
+  width: 29px;
+  height: 29px;
+  background: #F3F3F3;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-text, .user-name {
+  font-size: 12px;
+  color: #2B2B2B;
+}
+
+.user-name {
+  color: #42C028;
+}
+
+.users-dropdown-button {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px 0px 8px;
+  width: 154px;
+  height: 48px;
+  background: #FFFFFF;
+  outline: none;
+  border: 1px solid #707070;
+  border-radius: 29px;
+}
+
+.account-info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 6px;
+  text-align: left;
+}
+
+.users-dropdown-content {
+  position: absolute;
+  background: white;
+  width: 394px;
+}
+
+.account-controler-header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-back {
+  position: absolute;
+  cursor: pointer;
+}
+
+.logo-on-only-logo-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.account-controller-dropdown-unauthorized {
+  position: absolute;
+  width: 393px;
+  margin-left: -180px;
+  border-radius: 20px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1607843137);
+  background: white;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  z-index: 1111;
+}
+
+.show-unauthed-account-controller, .show-unauthed-account-controller-messages {
+  display: none;
+}
+
+.notification-creator {
+  font-size: 15px;
+  color: #707070;
+}
+
+.notification-date {
+  color: #707070;
+}
+
+.account-controller-dropdown-unauthorized:before {
+  content: "";
+  position: absolute;
+  right: 50%;
+  top: -15px;
+  width: 0;
+  height: 0;
+  transform: rotate(90deg);
+  border-top: 8px solid transparent;
+  border-right: 15px solid white;
+  border-bottom: 8px solid transparent;
+}
+
+.account-controller-dropdown-btns {
+  display: flex;
+  align-items: center;
+  padding: 0px 26px;
+  justify-content: space-between;
+  margin: 17px 0px;
+}
+.account-controller-dropdown-btns button {
+  width: 160px;
+  height: 48px;
+  font-size: 15px;
+  border-radius: 24px;
+  border: 2px solid #42d921;
+}
+.account-controller-dropdown-btns .sign-in {
+  background: #42d921;
+  color: white;
+}
+.account-controller-dropdown-btns .register {
+  background: white;
+  color: #42d921;
+}
+
+.language-switcher {
+  display: flex;
+  align-items: center;
+  margin-left: 26px;
+}
+
+.choose-language {
+  width: 25px;
+  height: 25px;
+  margin-right: 9px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 2px solid rgb(189, 189, 189);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.account-controller-dropdown-hr {
+  color: #e6e6e6;
+}
+
+.account-controller-password-change {
+  color: #828282;
+  margin: 16px 0px 16px 26px;
+  text-decoration: none;
+  font-size: 15px;
+}
+.account-controller-password-change:hover {
+  color: #828282;
+}
+
+.account-controller-dropdown-menu-items li {
+  padding: 10px 0px;
+}
+.account-controller-dropdown-menu-items li:hover {
+  background: #f3f3f3;
+  cursor: pointer;
+}
+.account-controller-dropdown-menu-items li a {
+  padding: 10px 0px 10px 26px;
+  text-decoration: none;
+  color: #828282;
+  font-size: 15px;
+}
+
+.account-controller-dropdown-unauthorized.show-unauthed-account-controller::-webkit-scrollbar {
+  display: none;
+}
+
+.account-controller-dropdown-hr {
+  margin: 0px;
+}/*# sourceMappingURL=UsersDropdown.module.css.map */

@@ -1,0 +1,139 @@
+.products-row{
+    padding: 35px 0px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #E6E6E6;
+}
+.product-image{
+    width: 96px;
+    height: 96px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #E6E6E6;
+    border-radius: 10px;
+    margin-right: 13px;
+}
+.products-counter{
+    cursor: pointer;
+    background: none;
+}
+.product-quantity-field{
+    background: none;
+    outline: none;
+    border: none;
+    width: 46px;
+    text-align: center;
+    font-size: 15px;
+    margin: 0px 4px;
+}
+.products-quantity{
+    width: 88px;
+    height: 32px;
+    border: 0.5px solid #959595;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.select-dropdown{
+    background: #F6F6F6;
+    outline: none;
+    padding-left: 25px;
+    height: 32px;
+    width: 151px;
+    color: #707070;
+    border-right: 13px solid #F6F6F6;
+    border-radius: 20px;
+}
+.columns{
+    display: flex;
+    flex-direction: column;
+    height: 96px;
+    justify-content: space-between;
+}
+.columns-size{
+    flex: 1;
+}
+.product-description{
+    flex: 2.5 !important;
+}
+.product-actions{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.description-text{
+    font-size: 13px;
+    max-width: 165px;line-break: auto;
+    height: 40px;
+}
+.price-sum{
+    font-size: 20px;
+}
+.current-price{
+    font-size: 18px;
+    color: #41C227;
+}
+.old-price{
+    margin-left: 31px;
+    font-size: 15px;
+    color: #E82828;
+    text-decoration: line-through;
+}
+.product-sum, .product-date, .product-actions, .product-quantity{
+    align-items: flex-end;
+}
+.title{
+    font-size: 13px;
+    color: #303030;
+}
+.new-item{
+    color: #003CFF;
+    font-size: 11px;
+    width: 45px;
+    height: 16px;
+    background: #E8EEFF;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-date .content {
+    p{
+        text-align: right;
+        &:first-child{
+            margin-bottom: 9px;
+        }
+        span:first-child{
+            margin-right: 2px;
+        }
+    }
+    span{
+        color: #707070;
+        font-size: 15px;
+    }
+}
+
+.product-date, .product-actions{
+    flex: 1.2 !important;
+}
+.edit-product{
+    display: flex;
+    align-items: center;
+}
+.edit-product-text{
+    color: #2E76FC;
+    text-decoration: underline;
+    font-size: 15px;
+    cursor: pointer;
+}
+.bin-icon-button{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #F6F6F6;
+    border: none;
+    outline: none;
+    margin-left: 11px;
+}

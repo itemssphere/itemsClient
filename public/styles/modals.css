@@ -1,0 +1,233 @@
+.modal {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+}
+
+.modal-backdrop {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+}
+
+.popup-content {
+  background: white;
+  position: absolute;
+  border-radius: 20px;
+  z-index: 111111;
+  padding: 27px 50px 33px 50px;
+}
+
+.modal-popup-header {
+  width: 330px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.modal-popup-header h2 {
+  font-size: 20px;
+  color: #3D3D3D;
+  width: 100%;
+}
+
+.modal-popup-header img {
+  position: absolute;
+  margin-right: -38px;
+  margin-top: -20px;
+  cursor: pointer;
+}
+
+.registration-switcher {
+  display: flex;
+  align-items: center;
+  width: 330px;
+  margin-top: 20px;
+  margin-bottom: 12px;
+  justify-content: space-between;
+}
+.registration-switcher .active svg path {
+  fill: #42D921;
+}
+
+.registration-switcher div {
+  cursor: pointer;
+  border: #707070 solid 1px;
+  height: 35px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 8px;
+}
+
+.registration-switcher div img {
+  margin-right: 6px;
+}
+
+.registration-switcher div p {
+  font-size: 15px;
+  color: #707070;
+}
+
+.registration-switcher .active {
+  border: #42d921 1px solid;
+  color: #42d921;
+}
+
+.registration-switcher .active p {
+  color: #42d921;
+}
+
+.registration-input-container .block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.registration-input-container input {
+  width: 100%;
+  border: 2px solid #F2F2F2;
+  height: 40px;
+  border-radius: 30px;
+  margin-top: 12px;
+}
+
+.d-flex-between {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+  height: 44px;
+}
+
+.registration-input-fields {
+  padding-left: 50px;
+  background: none;
+  z-index: 1111111111;
+}
+
+.d-flex-between img:first-child {
+  margin-left: 15px;
+}
+
+.d-flex-between img:last-child {
+  margin-right: 15px;
+}
+
+.registration-button {
+  height: 44px;
+  margin-top: 24px;
+  width: 100%;
+  border-radius: 30px;
+  font-size: 15px;
+  color: white;
+  background: #42D921;
+  border: 1px solid #42D921;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  cursor: pointer;
+}
+
+.terms-and-conditions {
+  width: 330px;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.terms-and-conditions p {
+  color: #7B7B7B;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.terms-and-conditions p a {
+  color: #1977F3;
+}
+
+.checkbox-in-reg {
+  width: 38px !important;
+  height: 17px !important;
+  margin-top: 0px !important;
+  margin-right: 10px !important;
+}
+
+.alredy-registered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.reg-btn-in-popup {
+  width: 150px;
+  height: 48px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #41C227;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px solid #41C227;
+}
+
+.forgot-pass-block {
+  width: 330px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-decoration: none;
+  color: #003CFF;
+  margin-top: 14px;
+}
+
+.auth-by-social {
+  width: 330px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 27px;
+}
+
+.rollowing-items-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.rollowing-items-list {
+  width: 320px;
+}
+.rollowing-items-list img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 9px;
+}
+.rollowing-items-list p {
+  color: #131313;
+  font-size: 14px;
+}
+.rollowing-items-list button {
+  background: #FBFBFB;
+  border-radius: 30px;
+  border: 1px solid #FBFBFB;
+  width: 98px;
+  height: 36px;
+  cursor: pointer;
+  color: #4CC334;
+}/*# sourceMappingURL=modals.css.map */

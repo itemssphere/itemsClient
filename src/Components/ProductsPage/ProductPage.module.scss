@@ -1,0 +1,393 @@
+.slider-image{
+  width: 100%;
+  height: 528px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.product-content-container{
+  width: 100%;
+}
+.slider-image-selector{
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 20px;
+}
+.product-head{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.create-date{
+  color: #707070;
+  font-size: 13px;
+}
+.hashtags{
+  display: flex;
+  align-items: center;
+  margin-left: 22px;
+  .hashtag{
+    font-size: 13px;
+    color: #707070;
+  }
+}
+.product-title{
+  margin-top: 18px;
+  font-size: 20px;
+}
+.product-condition{
+  display: flex;
+  align-items: center;
+  margin-top: 11px;
+}
+.new-item{
+  width: 58px;
+  height: 24px;
+  border-radius: 24px;
+  background: #E8EEFF;
+  color: #003CFF;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.review-count{
+  display: flex;
+  align-items: center;
+  margin-left: 11px;
+  .circle{
+    width: 16px;
+    height: 16px;
+    border: #003CFF 1px solid;
+    border-radius: 16px;
+    margin-right: 3px;
+  }
+  .filled{
+    background: #003CFF;
+  }
+  .reviews-count{
+    color: #4E4E4E;
+    font-size: 12px;
+  }
+}
+.product-details-container{
+  display: flex;
+  flex-direction: column;
+}
+.manufacturer, .location, .color{
+  color: #3D3D3D;
+  font-size: 15px;
+  span{
+    color: #000000;
+  }
+}
+.manufacturer{
+  margin-top: 17px;
+}
+.location{
+  margin: 13px 0px 18px 0px;
+}
+.choose-item{
+  display: flex;
+  align-items: center;
+  margin-top: 9px;
+  div{
+    width: 47px;
+    height: 47px;
+    border-radius: 10px;
+    margin-right: 7px;
+  }
+}
+.section-name{
+  font-size: 15px;
+  margin-top: 17px;
+  margin-bottom: 9px;
+}
+.select-form-control{
+  width: 118px;
+  height: 32px;
+  border-right: 10px white solid;
+  padding-left: 15px;
+  outline: #707070 1px solid;
+  background: white;
+  border-radius: 30px;
+}
+.delivery-type{
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  line-height: 23px;
+}
+.in-stock{
+  margin-top: 17px;
+  color: #A8A8A8;
+  font-size: 15px;
+}
+.counter-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 8px;
+  width: 118px;
+  height: 32px;
+  border: 1px solid #707070;
+  border-radius: 16px;
+  background: white;
+  button{
+    background: none;
+    border: none;
+  }
+}
+.add-to-wishlist{
+  width: 191px;
+  height: 48px;
+  margin-top: 25px;
+  background: #003CFF;
+  border: #003CFF;
+  color: white;
+  border-radius: 30px;
+  font-size: 15px;
+}
+.product-prices-container{
+  width: 191px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.product-details-wrapper{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.discount{
+  width: 43px;
+  height: 22px;
+  background: #2ADF00;
+  border-radius: 12px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 4px;
+}
+.discounter-price-wrapper{
+  display: flex;
+  align-items: center;
+}
+.old-price{
+  color: #E82828;
+  font-size: 18px;
+  text-decoration: line-through;
+}
+.price-now{
+  color: #41C227;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+.total-price-amount{
+  font-size: 25px;
+  color: #303030;
+}
+.add-to-cart{
+  background: #42D921;
+  color: white;
+  width: 191px;
+  height: 48px;
+  border-radius: 30px;
+  border: 1px solid #42D921;
+  margin-top: 25px;
+  font-size: 15px;
+}
+.donation-container{
+  width: 256px;
+  padding: 28px 20px 25px 20px;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 20px;
+  margin-left: 15px;
+}
+.owner-and-price-info{
+  display: flex;
+  align-items: flex-end;
+}
+.donation-title, .seller-title{
+  color: #3D3D3D;
+  font-size: 20px;
+  margin-bottom: 9px;
+}
+.donation-percents{
+  width: 79px;
+  height: 39px;
+  background: #F3F3F3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #42D921;
+  font-size: 28px;
+  border-radius: 30px;
+}
+.donation-wrapper{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.donation-percent-text{
+  font-size: 15px;
+  color: #8D8D8D;
+  margin-left: 6px;
+  max-width: 138px;
+}
+.donation-image{
+  width: 216px;
+  height: 149px;
+  margin-top: 23px;
+  border: 2px solid #E6E6E6;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.seller-image{
+  width: 216px;
+  height: 216px;
+  margin-top: 15px;
+  border: 2px solid #E6E6E6;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.donation-user-name{
+  margin-top: 27px;
+}
+.seller-user-name{
+  margin-top: 19px;
+}
+.donation-description, .seller-description{
+  margin-top: 13px;
+  color: #5A5A5A;
+  font-size: 13px;
+}
+.seller-description{
+  margin-top: 8px;
+}
+.seller-container{
+  width: 256px;
+  padding: 28px 20px 25px 20px;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 20px;
+  margin-left: 15px;
+}
+.send-message{
+  width: 100%;
+  height: 48px;
+  border: 1px solid #2ADF00;
+  color: #2ADF00;
+  border-radius: 30px;
+  font-size: 15px;
+  background: none;
+  margin: 19px 0px 11px 0px;
+}
+.send-email{
+  width: 100%;
+  height: 48px;
+  border: 1px solid #EDEDED;
+  background: #EDEDED;
+  font-size: 15px;
+  border-radius: 30px;
+  color: #131313;
+}
+.report-problems{
+  margin: 16px auto 0px auto;
+  width: 100%;
+  background: none;
+  border: none;
+  text-decoration: underline;
+  color: #3D3D3D;
+}
+.product-detail-tabs{
+  background: #FFFFFF;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 20px;
+  opacity: 1;
+  width: 100%;
+  padding: 30px 32px 32px 32px;
+  margin-top: 45px;
+}
+.tabs-header{
+  display: flex;
+  align-items: center;
+  span{
+    margin-right: 37px;
+    cursor: pointer;
+    color: #A8A8A8;
+    font-size: 20px;
+    padding-bottom: 12px;
+    border-bottom: 4px solid white;
+  }
+  .active-tab{
+    color: #070707;
+    border-bottom: 4px solid #206DFC;
+  }
+}
+.flex-wrap{
+    display: flex;
+    align-items: flex-end;
+}
+
+@media (max-width: 1399px) {
+    .donation-image{
+        width: 160px;
+        height: 120px;
+        margin-top: 10px;
+    }
+    .donation-percents{
+        width: 76px;
+        height: 27px;
+        font-size: 16px;
+    }
+    .donation-wrapper{
+        width: 160px;
+    }
+    .donation-percent-text{
+        font-size: 13px;
+    }
+    .donation-description{
+        width: 160px;
+    }
+    .donation-container{
+        padding: 10px;
+        width: 180px;
+    }
+    .flex-wrap{
+        flex-direction: column-reverse;
+    }
+    .seller-image{
+        width: 180px;
+        height: 180px;
+    }
+    .seller-container{
+        padding: 10px;
+        width: 200px;
+    }
+    .slider-image{
+        height: 340px;
+    }
+    .slider-image-selector{
+        width: 112px;
+        height: 112px;
+    }
+}
+@media(max-width: 1199px){
+    .slider-image{
+        height: 300px;
+    }
+    .slider-image-selector{
+        width: 90px;
+        height: 90px;
+    }
+}

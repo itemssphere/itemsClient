@@ -1,0 +1,357 @@
+.left-side,
+.right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.edit-social-program-mobile {
+  display: none;
+}
+
+.social-progrram-on-edit {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.right-side {
+  align-items: flex-end !important;
+}
+
+.product-donate-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-donate-count {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.product-donate-btn {
+  background: #41C227;
+  color: white;
+  height: 32px;
+  border: 1px solid #41C227;
+  border-radius: 16px;
+  font-size: 15px;
+}
+
+.product-donate-count span {
+  margin-right: 13px;
+  color: #4A4A4A;
+  position: absolute;
+}
+
+.product-donate-count input {
+  width: 100%;
+  padding-left: 17px;
+  border: 2px solid #F2F2F2;
+  height: 32px;
+  border-radius: 16px;
+  color: #4A4A4A;
+}
+
+.product-donate-count,
+.product-donate-btn {
+  width: calc(50% - 5px);
+}
+
+.social-programs-container {
+  width: 100% !important;
+  height: -webkit-fit-content !important;
+  height: -moz-fit-content !important;
+  height: fit-content !important;
+  flex-shrink: 0;
+  border-radius: 20px;
+  margin-right: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+}
+
+.social-programs-page-item {
+  width: calc(25% - 10px);
+  margin-right: 0px;
+}
+
+.social-programs-page-item .social-programs-page-item-image {
+  height: 179px;
+}
+
+.social-program-item-description {
+  margin-top: 17px !important;
+}
+
+.social-program-item-container {
+  width: 100%;
+  background: white;
+  border-radius: 20px;
+  height: 100%;
+}
+
+.social-program-item-image {
+  width: 100%;
+  height: 158px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.social-program-description {
+  background: white;
+  border-radius: 0px 0px 20px 20px;
+  padding: 16px 13px 17px 13px;
+}
+
+.social-programs-paragraph {
+  color: #5A5A5A;
+  margin: 12px 0px 10px 0px;
+}
+
+.social-program-current-donate {
+  color: #42D921;
+}
+
+.social-program-progress {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: 3px 0px 15px 0px;
+}
+
+.social-program-progress .social-programs-progress-line {
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background: #DFDFDF;
+  border-radius: 3px;
+}
+
+.social-program-progress .social-program-progress-done {
+  height: 4px;
+  border-radius: 3px;
+  background: #42D921;
+  z-index: 111;
+}
+
+.social-programs-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-programs-actions .social-programs-actions-btns {
+  display: flex;
+  align-items: center;
+}
+
+.social-programs-actions .social-programs-actions-btns .social-program-share-btn,
+.social-programs-actions .social-programs-actions-btns .social-programs-add-to-favorite-btn {
+  width: 33px;
+  height: 33px;
+  border-radius: 30px;
+  background: #EAEAEA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 4px;
+}
+
+.social-programs-actions .social-programs-actions-btns .social-program-quantities,
+.social-programs-actions .social-programs-actions-btns .social-programs-add-fav-actions-hover {
+  color: #4A4A4A;
+}
+
+.social-programs-actions .social-programs-actions-btns .social-programs-add-to-favorite:hover .social-programs-add-to-favorite-btn {
+  background: rgb(245, 199, 199);
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.social-programs-actions .social-programs-actions-btns .social-programs-add-to-favorite:hover .social-programs-add-to-favorite-btn svg path {
+  fill: red;
+  transition: 0.5s;
+}
+
+.social-programs-actions .social-programs-actions-btns .social-programs-add-to-favorite:hover .social-program-quantities {
+  display: none;
+}
+
+.social-programs-actions .social-programs-actions-btns .social-programs-add-to-favorite:hover .social-programs-add-fav-actions-hover {
+  display: block;
+}
+
+.social-programs-actions .social-programs-actions-btns .social-programs-actions-btns-share:hover .social-program-share-btn {
+  background: rgb(161, 176, 224) !important;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.social-programs-add-to-favorite:hover {
+  transform: scale(0.9);
+  transition: 0.5s;
+}
+
+.social-programs-add-to-favorite:hover .social-programs-add-to-favorite-btn {
+  background: #bbcff5;
+}
+
+.social-programs-add-to-favorite:hover .social-programs-add-to-favorite-btn svg path:last-child {
+  fill: #2e76fc;
+}
+
+.social-programs-add-to-favorite:hover .social-programs-favorited-quantity {
+  visibility: hidden !important;
+}
+
+.social-programs-add-to-favorite:hover .social-programs-add-fav-actions-hover {
+  visibility: visible !important;
+  color: #2e76fc !important;
+}
+
+.social-program-share:hover {
+  transform: scale(0.9);
+  transition: 0.5s;
+}
+
+.social-program-share:hover .social-program-share-btn {
+  background: #bbcff5;
+}
+
+.social-program-share:hover .social-program-share-btn svg path {
+  fill: #2e76fc;
+}
+
+.social-program-share:hover .social-program-shared-quantity {
+  visibility: hidden !important;
+}
+
+.social-program-share:hover .social-programs-share-actions-hover {
+  visibility: visible !important;
+  color: #2e76fc !important;
+}
+
+.social-program-share-btn,
+.social-programs-add-to-favorite-btn {
+  width: 38px;
+  height: 38px;
+  border-radius: 30px;
+  background: rgba(165, 165, 165, 0.231372549);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.select-form-control {
+  width: 73px !important;
+  padding-left: 0px;
+  border-right: 2px solid;
+}
+
+.social-program-shared-quantity,
+.social-programs-favorited-quantity {
+  font-size: 18px;
+  color: #4A4A4A;
+  position: absolute;
+  margin-left: 42px;
+}
+
+.social-programs-add-fav-actions-hover,
+.social-programs-share-actions-hover {
+  visibility: hidden;
+}
+
+.social-projects-container-orgs {
+  width: calc(25% - 10px);
+}
+
+@media (max-width: 1399px) {
+  .social-programs-page-item {
+    width: calc(33% - 10px) !important;
+  }
+  .social-projects-container-orgs {
+    width: calc(33.3333333333% - 10px);
+  }
+}
+@media (max-width: 1199px) {
+  .social-projects-container-orgs {
+    width: calc(50% - 10px);
+  }
+}
+@media (max-width: 1024px) {
+  .social-programs-container {
+    width: 167px;
+    height: 283px;
+  }
+  .edit-social-program {
+    display: none;
+  }
+  .edit-social-program-mobile {
+    display: block;
+  }
+  .select-form-control {
+    width: 120px !important;
+    padding-left: 10px;
+    border-right: 12px solid;
+    margin-bottom: 0px !important;
+  }
+  .right-side {
+    width: 100%;
+    flex-direction: row !important;
+    margin-top: 10px;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+  .social-progrram-on-edit {
+    flex-direction: column;
+  }
+  .social-projects-container-orgs {
+    width: calc(33.3333333333% - 10px);
+  }
+  .social-program-item-image {
+    height: 104px;
+  }
+  .social-programs-paragraph {
+    margin: 10px 0px;
+  }
+  .social-program-current-donate {
+    font-size: 15px;
+  }
+  .social-program-progress {
+    margin: 7px 0px 11px 0px;
+  }
+  .social-programs-add-to-favorite-btn,
+.social-program-share-btn {
+    width: 24px !important;
+    height: 24px !important;
+  }
+  .social-programs-add-to-favorite-btn svg,
+.social-program-share-btn svg {
+    width: 13px !important;
+  }
+  .social-program-quantities {
+    font-size: 11px !important;
+  }
+  .social-program-shared-quantity, .social-programs-favorited-quantity {
+    margin-left: 28px !important;
+  }
+}
+.social-progrram-on-edit {
+  margin-bottom: 36px;
+}
+.social-progrram-on-edit .fs13 {
+  font-size: 11px !important;
+}
+
+@media (max-width: 767px) {
+  .social-projects-container-orgs {
+    width: calc(50% - 10px);
+  }
+}/*# sourceMappingURL=SocialProject.module.css.map */

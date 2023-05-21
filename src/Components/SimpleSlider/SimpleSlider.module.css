@@ -1,0 +1,13 @@
+.slider-container {
+  overflow: auto;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  overflow: hidden;
+  padding-bottom: 5px;
+  width: 100%;
+}
+.slider-container .slider-content {
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=SimpleSlider.module.css.map */

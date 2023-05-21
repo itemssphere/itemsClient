@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  background: #FBFBFB;
+}
+
+@font-face {
+  font-family: "regular";
+  src: url("./fonts/regular.ttf")
+}
+
+@font-face{
+font-family: "bold";
+src: url("./fonts/Bold.ttf");
+}
+
+@font-face{
+  font-family: "bold-italic";
+  src: url("./fonts/Bold-Italic.ttf");
+}
+
+@font-face{
+  font-family: "italic";
+  src: url("./fonts/Italic.ttf");
+}
+
+.bold{
+  font-family: bold !important;
+}
+
+.bold-italic{
+  font-family: "bold-italic" !important;
+}
+
+.italic{
+  font-family: italic !important;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, select, option, input {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font-family: 'regular' !important;
+vertical-align: baseline;
+}
+body{
+background: #FBFBFB;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+@media(min-width: 1400px){
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+  max-width: 1637px;
+}
+}
+body{
+overflow-y: auto;
+overflow-x: hidden;
+}
+.select-form-control{
+padding-left: 18px;
+background: white;
+border: none;
+border-radius: 16px;
+border-right: 16px solid white;
+outline: 2px solid #F2F2F2;
+}
+.currect-pages {
+margin-bottom: 20px;
+font-size: 13px;
+color: #3d3d3d;
+opacity: 0.5;
+}
+.currect-pages a {
+font-size: 13px;
+color: #3d3d3d;
+text-decoration: none;
+}
+.enable-edit{
+border: 1px solid #2E76FC;
+}

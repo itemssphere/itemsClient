@@ -1,0 +1,47 @@
+.navbar-item {
+  color: #2B2B2B;
+}
+.navbar-item path:last-child {
+  fill: #4CC334;
+}
+
+.navbar-list {
+  display: flex;
+  fill: #2B2B2B;
+  align-items: center;
+}
+.navbar-list li {
+  padding-left: 21px;
+}
+.navbar-list .navbar-item {
+  display: flex;
+  align-items: center;
+}
+.navbar-list p {
+  padding-left: 7px;
+}
+
+.active-navbar path:last-child {
+  fill: #206DFC;
+}
+.active-navbar p {
+  color: #206DFC;
+}
+
+.navbar-container {
+  background: #F3F3F3;
+  border-radius: 20px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-container a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #2B2B2B;
+}
+
+.right-side a {
+  margin-right: 24px;
+}/*# sourceMappingURL=NavBar.module.css.map */

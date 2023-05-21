@@ -1,0 +1,11 @@
+.slider-container{
+    overflow: auto;
+    height: fit-content;
+    overflow: hidden;
+    padding-bottom: 5px;
+    width: 100%;
+    .slider-content{
+        display: flex;
+        align-items: center;
+    }
+}
